@@ -1,0 +1,86 @@
+.projects {
+  min-height: 100vh;
+  background-color: rgb(29, 29, 29);
+}
+.projects__cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects__cont > h2 {
+  color: green !important;
+  text-align: left !important;
+}
+.card {
+  background-color: rgb(39, 39, 35) !important;
+  text-align: left;
+  width: 100%;
+  max-width: 30rem !important;
+  min-width: 18rem !important;
+}
+.btn {
+  border-top: solid 1px green !important;
+  text-align: left !important;
+}
+.card-img-top {
+  width: 100% !important;
+  max-width: 30rem !important;
+  min-width: 18rem !important;
+}
+
+.horizontalImage {
+  height: 300px !important;
+}
+
+.card-title,
+.btn {
+  color: green !important;
+}
+.horizontal {
+  display: flex !important;
+  flex-direction: row !important;
+  background-color: rgb(39, 39, 35) !important;
+  width: 100%;
+  max-width: 65rem !important;
+  min-width: 18rem !important;
+  margin: 10px;
+  margin-top: 20px;
+}
+.horizontalImage {
+  width: 100%;
+  max-width: 30rem !important;
+  min-width: 18rem !important;
+  margin: 10px;
+}
+.projectNameCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.text {
+  text-align: left;
+}
+.objective__cont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+.objective {
+  color: green !important;
+}
+.objective__cont > p > span {
+  border-right: 1px solid green;
+  padding: 10px;
+  margin-right: 10px;
+}
+.objective__cont > p {
+  color: whitesmoke;
+  border: 1px solid green;
+  padding: 10px;
+  width: 100%;
+  max-width: 65rem !important;
+  text-align: left !important;
+}

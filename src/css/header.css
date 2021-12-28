@@ -1,0 +1,9 @@
+.font-electro {
+  font-family: "Lilliput Steps", sans-serif;
+  color: white !important;
+  margin-left: 10px;
+}
+#basic-navbar-nav {
+  justify-content: center;
+  font-size: 1rem;
+}

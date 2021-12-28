@@ -1,0 +1,37 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 90vh;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Ywenye0q5ynxIRvme_expJ5mHg5Z5aPwZw&usqp=CAU");
+}
+.homepage__header {
+  padding-top: 50px;
+}
+.homepage__container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  margin-top: 150px;
+}
+.homepage__container > h3 {
+  font-size: 3rem;
+  text-align: left;
+}
+.homepage__container > p {
+  font-size: 1.2rem;
+  letter-spacing: 1px !important;
+  text-align: left;
+  color: white;
+}
+.btn__learn,
+.btn__learn:hover {
+  background-color: transparent;
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: white 1px solid !important;
+  color: white !important;
+  align-self: flex-start;
+  text-decoration: none;
+  cursor: pointer;
+}
